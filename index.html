@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<!-- 对移动设备友好，确保适当的绘制和触屏缩放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>我也不知道</title>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
+		<![endif]-->
+	<link rel="shortcut icon" href="img/logo/.." />
+	<!-- 新 Bootstrap4 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+	<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+	<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<nav class="navbar">
+		<!-- Toggler Button -->
+		<div class="navbar-toggler " data-toggle="collapse">
+			<i class="taggle-ico"></i>
+		</div>
+		<!-- logo -->
+		<a class="navbar-brand" href="#"></a>
+		<!-- search -->
+		<form class="form-inline   form-inline-search">
+			<input class="form-control" type="text" placeholder="搜索打開新世界">
+			<button class="img-btn" type="image"></button>
+		</form>
+		<!-- message/center -->
+		<div class="nav">
+			<div class="tool-box only">
+				<i class="search"></i>
+			</div>
+			<div class="tool-box">
+				<i class="message"></i>
+			</div>
+			<div class="tool-box nav-item dropdown">
+				<i class="userCenter" id="navbardrop" data-toggle="dropdown"></i>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Link 1</a>
+					<a class="dropdown-item" href="#">Link 2</a>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="mark-search">
+			<form class="form-inline fs">
+				<input class="form-control fsp" type="text" placeholder="搜索打開新世界">
+				<button class="m-img-btn" type="image"></button>
+			</form>
+		</div>
+		
+	</nav>
+
+	<div id="collapsibleNavbar">
+		<div class="toggle-left">
+			<ul class="list-group">
+				<li class="list-group-item active">
+					<i class="same home"></i>首页</li>
+				<li class="list-group-item">
+					<i class="same shop"></i>商城</li>
+				<li class="list-group-item">
+					<i class="same club"></i>社区</li>
+				<li class="list-group-item">
+					<i class="same ThematicSquare"></i>专题广场</li>
+				<li class="list-group-item">
+					<i class="same AppRecom"></i>应用推荐</li>
+				<li class="list-group-item">
+					<i class="same WeedNews"></i>一周新奇闻</li>
+				<li class="list-group-item">
+					<i class="same rankingList"></i>推荐排行榜</li>
+				<hr>
+			</ul>
+			<ul class="list-group follow">
+				<span class="listTitle">关注作者</span>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>作者1</span>
+					<div class="num">1</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>杰姆</span>
+					<div class="num">8</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>hajem</span>
+					<div class="num">6</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>mili</span>
+					<div class="num">4</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>sam</span>
+					<div class="num">1</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>师弟烂大街阿加莎</span>
+					<div class="num">3</div>
+				</li>
+				<li class="list-group-item">
+					<i class="same p"></i>
+					<span>这名字很长长长长长长长长长长长长长长长</span>
+					<div class="num">0</div>
+				</li>
+				<li class="list-group-item ">
+					<i class="same d"></i>
+					<b>show more</b>
+				</li>
+				
+
+				<hr>
+			</ul>
+			<ul class="list-group foot">
+				<li class="list-group-item foot-style">
+					<div class="link webo"></div>
+					<div class="link qq"></div>
+					<div class="link facebook"></div>
+				</li>
+				<li class="list-group-item foot-link">
+					<ul class="left">
+						<li>
+							<a href="#">支持我们</a>
+						</li>
+						<li>
+							<a href="#">用户协议</a>
+						</li>
+						<li>
+							<a href="#">FAQ</a>
+						</li>
+					</ul>
+					<ul class="right">
+						<li>
+							<a href="#">作者招募</a>
+						</li>
+						<li>
+							<a href="#">Contact us</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+</body>
+<script>
+	$tg = $(window).height() - 70;
+	$("#collapsibleNavbar").height($tg);
+</script>
+
+</html>
